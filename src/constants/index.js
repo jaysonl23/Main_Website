@@ -1,8 +1,6 @@
 import { p } from "framer-motion/client";
 import {
   resume,
-  blackhole2,
-  blackhole,
   resumeL,
   Afx,
   tiktok,
@@ -39,7 +37,6 @@ import {
     merch,
     trans,
     VFX,
-    logo,
     AfxL,
   } from "../assets";
 

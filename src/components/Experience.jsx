@@ -12,7 +12,7 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-import { blackhole2 } from "../assets";
+
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -62,12 +62,11 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-        Professional Highlights
-        </p>
+        <p className={`${styles.sectionSubText} text-center `}>
+        Professional Highlights </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Experience
-        </h2>
+          </h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
@@ -86,4 +85,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, "works");

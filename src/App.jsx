@@ -11,11 +11,8 @@ const App=() =>{
    <div className='relative z-0 bg-[#030014]'>
    
       <div className=' bg-cover  bg-center bg-no-repeat'> 
-      {/* <StarsCanvas /> */}
       <Navbar />
-      
-      <Hero />
-      
+      <Hero />  
       </div>
       <About  />
       <Experience />

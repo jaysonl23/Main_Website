@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { blackhole } from "../assets";
-import{  StarsCanvas} from "./canvas";
+
 const Hero = () => {
   return (
 
@@ -26,6 +26,7 @@ const Hero = () => {
         </div>
 
         <div>
+          
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#631cfc] text-shadow' >Jayz</span>
           </h1>
